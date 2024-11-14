@@ -8,29 +8,29 @@ import category5Img from "../../assets/images/category5.png";
 
 const CategorySection = () => {
   return (
-    <section className="w-full">
-      <h2 className="uppercase md:2xl:text-5xl text-3xl text-center mt-16 mb-12">
+    <section className="w-full flex items-center flex-col">
+      <h2 className="uppercase md:2xl:text-5xl text-3xl text-center md:mt-16 md:mb-12 my-10">
         Shop By Categories
       </h2>
-      <div className="flex justify-between gap-4 w-full overflow-hidden">
+      <div className="flex justify-between gap-4 w-full max-w-[1920px] overflow-hidden">
         <a href="#" className="block">
           <img
             src={category1Img}
-            className="h-auto scale-100 transform transition duration-200 hover:scale-105"
+            className="h-auto  transform transition duration-200 hover:scale-105"
             alt="Category 1"
           />
         </a>
         <a href="#" className="block">
           <img
             src={category2Img}
-            className="h-auto transform transition duration-200 hover:scale-105"
+            className="h-auto  transform transition duration-200 hover:scale-105"
             alt="Category 2"
           />
         </a>
         <a href="#" className="block">
           <img
             src={category3Img}
-            className="h-auto transform transition duration-200 hover:scale-105"
+            className="h-auto  transform transition duration-200 hover:scale-105"
             alt="Category 3"
           />
         </a>
@@ -42,7 +42,7 @@ const CategorySection = () => {
           />
         </a>
       </div>
-      <div>
+      <div className="w-full">
         <img
           src={category5Img}
           className="h-auto block mt-4 w-full"
