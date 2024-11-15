@@ -1,0 +1,102 @@
+{
+  "home": {
+    "header": {
+      "logo": {
+        "title": "AltanSchool Web Courses",
+        "link": "/"
+      },
+      "nav": {
+        "links": [
+          { "text": "Home", "href": "/" },
+          { "text": "About", "href": "/about" },
+          { "text": "Shop", "href": "/shop" },
+          { "text": "Blog", "href": "/blog" },
+          { "text": "Contact", "href": "/contact" }
+        ]
+      }
+    },
+    "banner": {
+      "image": {
+        "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/banner.png?raw=true",
+        "alt": "Banner Image"
+      },
+      "title": "Organic Fashion",
+      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "button": "Shop now"
+    },
+    "categorySelection": {
+      "title": "Shop By Categories",
+      "breakImg": {
+        "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/category5.png?raw=true",
+        "alt": "Break Image"
+      },
+      "categories": [
+        {
+          "href": "/category1",
+          "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/category1.png?raw=true",
+          "alt": "Category 1"
+        },
+        {
+          "href": "/category2",
+          "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/category2.png?raw=true",
+          "alt": "Category 2"
+        },
+        {
+          "href": "/category3",
+          "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/category3.png?raw=true",
+          "alt": "Category 3"
+        },
+        {
+          "href": "/category4",
+          "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/category4.png?raw=true",
+          "alt": "Category 4"
+        }
+      ]
+    },
+    "newCollection": {
+      "title": "New Collection",
+      "collections": [
+        {
+          "href": "/collection1",
+          "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/collection1.png?raw=true",
+          "alt": "Collection 1"
+        },
+        {
+          "href": "/collection2",
+          "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/collection2.png?raw=true",
+          "alt": "Collection 2"
+        },
+        {
+          "href": "/collection3",
+          "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/collection3.png?raw=true",
+          "alt": "Collection 3"
+        }
+      ],
+      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    "aboutUs": {
+      "image": {
+        "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/aboutus.png?raw=true",
+        "alt": "About Us Image"
+      },
+      "title": "About Us",
+      "paragraph": {
+        "first": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "second": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      },
+      "button": "Learn More"
+    },
+    "footer": {
+      "title": "Follow Us",
+      "inputsPlc": {
+        "name": "Enter your name",
+        "email": "Enter a valid email address",
+        "message": "Enter your message"
+      },
+      "image": {
+        "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/footer.png?raw=true",
+        "alt": "Footer image"
+      }
+    }
+  }
+}

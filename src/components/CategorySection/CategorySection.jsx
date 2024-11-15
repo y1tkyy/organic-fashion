@@ -1,52 +1,37 @@
 import React from "react";
 import styles from "./CategorySection.module.scss";
-import category1Img from "../../assets/images/category1.png";
-import category2Img from "../../assets/images/category2.png";
-import category3Img from "../../assets/images/category3.png";
-import category4Img from "../../assets/images/category4.png";
-import category5Img from "../../assets/images/category5.png";
+import { useSelector } from "react-redux";
 
 const CategorySection = () => {
+  const categoryData = useSelector(
+    (state) => state.siteData.data.home?.categorySelection
+  );
+
+  if (!categoryData) return null;
+
+  const { title, categories, breakImg } = categoryData;
+
   return (
     <section className="w-full flex items-center flex-col">
       <h2 className="uppercase md:2xl:text-5xl text-3xl text-center md:mt-16 md:mb-12 my-10">
-        Shop By Categories
+        {title}
       </h2>
       <div className="flex justify-between gap-4 w-full max-w-[1920px] overflow-hidden">
-        <a href="#" className="block">
-          <img
-            src={category1Img}
-            className="h-auto  transform transition duration-200 hover:scale-105"
-            alt="Category 1"
-          />
-        </a>
-        <a href="#" className="block">
-          <img
-            src={category2Img}
-            className="h-auto  transform transition duration-200 hover:scale-105"
-            alt="Category 2"
-          />
-        </a>
-        <a href="#" className="block">
-          <img
-            src={category3Img}
-            className="h-auto  transform transition duration-200 hover:scale-105"
-            alt="Category 3"
-          />
-        </a>
-        <a href="#" className="block">
-          <img
-            src={category4Img}
-            className="h-auto transform transition duration-200 hover:scale-105"
-            alt="Category 4"
-          />
-        </a>
+        {categories.map((item, index) => (
+          <a href={item.href} className="block" key={index}>
+            <img
+              src={item.src}
+              className="h-auto transform transition duration-200 hover:scale-105"
+              alt={item.alt}
+            />
+          </a>
+        ))}
       </div>
       <div className="w-full">
         <img
-          src={category5Img}
+          src={breakImg.src}
           className="h-auto block mt-4 w-full"
-          alt="Category 5"
+          alt={breakImg.alt}
         />
       </div>
     </section>
