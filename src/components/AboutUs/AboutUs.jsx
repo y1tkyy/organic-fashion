@@ -14,7 +14,7 @@ const AboutUs = () => {
     <section className="w-full flex items-center justify-center h-fit px-9">
       <div className="flex max-w-container md:py-28 py-10 gap-x-16">
         <h2 className="hidden">About Us</h2>
-        <div className="md:w-1/4 w-full flex items-center md:block hidden">
+        <div className="md:w-1/4 w-full md:lg:flex items-center md:block hidden">
           <img
             src={image.src}
             alt={image.alt}
@@ -26,7 +26,7 @@ const AboutUs = () => {
             {title}
           </h2>
           <div className="md:space-y-2 space-y-10 my-14">
-            <p className="md:2xl:text-4xl md:2xl:text-xl text-base max-w-2xl md:2xl:max-w-6xl md:text-left text-center">
+            <p className="md:2xl:text-4xl md:xl:text-xl text-base max-w-2xl md:2xl:max-w-6xl md:text-left text-center">
               {paragraph.first}
             </p>
             <div className="md:w-1/4 w-full flex items-center md:hidden container px-6 ">
@@ -36,7 +36,7 @@ const AboutUs = () => {
                 className="w-full h-64 object-cover"
               />
             </div>
-            <p className="md:2xl:text-4xl md:2xl:text-xl max-w-2xl md:2xl:max-w-6xl md:text-left  text-center">
+            <p className="md:2xl:text-4xl md:xl:text-xl max-w-2xl md:2xl:max-w-6xl md:text-left  text-center">
               {paragraph.second}
             </p>
           </div>
