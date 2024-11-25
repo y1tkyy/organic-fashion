@@ -2,7 +2,7 @@
   "home": {
     "header": {
       "logo": {
-        "title": "AltanSchool Web Courses",
+        "title": "OrganiCo",
         "link": "/"
       },
       "nav": {
@@ -20,8 +20,8 @@
         "src": "https://github.com/y1tkyy/organic-fashion/blob/main/src/assets/images/banner.png?raw=true",
         "alt": "Banner Image"
       },
-      "title": "Organic Fashion",
-      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "title": "Fresh Flowers, Naturally",
+      "paragraph": "At OrganiCo, we believe in the beauty of nature. Our flowers are handpicked from organic farms to bring you the freshest blooms, sustainably grown to brighten your day. Whether you’re decorating your home or celebrating a special occasion, we have something for every moment.",
       "button": "Shop now"
     },
     "categorySelection": {
@@ -72,7 +72,7 @@
           "alt": "Collection 3"
         }
       ],
-      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "paragraph": "Discover our newest floral creations, designed to complement your lifestyle. From vibrant bouquets to serene indoor plants, our new collection brings nature's finest offerings straight to your doorstep."
     },
     "aboutUs": {
       "image": {
@@ -81,8 +81,8 @@
       },
       "title": "About Us",
       "paragraph": {
-        "first": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "second": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "first": "At OrganiCo, we’re passionate about flowers. Our mission is to offer only the highest quality, organic blooms that support sustainable farming practices. We believe in bringing joy and beauty into the lives of our customers while caring for the environment.",
+        "second": "Our team works tirelessly to ensure each bouquet is crafted with care, and every stem is ethically sourced. From garden favorites to exotic varieties, our flowers are perfect for any occasion—whether it's a gift, an event, or just to brighten your day."
       },
       "button": "Learn More"
     },

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./AboutUs.module.scss";
 import aboutUsImg from "../../assets/images/aboutus.png";
 import { useSelector } from "react-redux";
+import Button from "../Button/Button";
 
 const AboutUs = () => {
   const aboutUsData = useSelector((state) => state.siteData.data.home?.aboutUs);
@@ -40,9 +41,10 @@ const AboutUs = () => {
               {paragraph.second}
             </p>
           </div>
-          <button className="uppercase hover:bg-secondary-light duration-200 w-fit md:2xl:px-10 md:2xl:py-5 px-1 md:py-3 py-1 md:2xl:text-4xl md:text-xl text-base max-w-[22rem] min-w-52 tracking-widest border-[5px] border-buttons rounded-[10px]">
-            {button}
-          </button>
+          <Button
+            buttonText={button}
+            className="md:2xl:px-10 md:2xl:py-5 px-1 md:py-3 py-1 md:2xl:text-4xl md:text-xl max-w-[22rem] min-w-52 border-[5px] border-buttons rounded-[10px] hover:bg-secondary-light"
+          />
         </div>
       </div>
     </section>

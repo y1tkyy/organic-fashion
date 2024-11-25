@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Banner.module.scss";
 import { useSelector } from "react-redux";
+import Button from "../Button/Button";
 
 const Banner = () => {
   const bannerData = useSelector((state) => state.siteData.data.home?.banner);
@@ -30,9 +31,10 @@ const Banner = () => {
           <p className="md:2xl:text-4xl md:text-xl text-sm md:2xl:max-w-4xl max-w-xl pr-2 pb-10">
             {paragraph}
           </p>
-          <button className="hover:bg-secondary-dark w-fit duration-500 uppercase md:2xl:py-6 md:2xl:pr-24 md:2xl:pl-12 py-2 px-10 md:text-xl text-[13px] max-w-72 md:min-w-52 tracking-widest bg-buttons rounded-[60px] text-white">
-            {button}
-          </button>
+          <Button
+            buttonText={button}
+            className="md:2xl:py-6 md:2xl:pr-24 md:2xl:pl-12 py-2 px-10 md:text-xl text-[13px] max-w-72 md:min-w-52 bg-buttons rounded-[60px] text-white hover:bg-secondary-dark"
+          />
         </div>
       </div>
     </section>

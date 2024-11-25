@@ -3,17 +3,20 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import "./styles/global.scss";
 import "./styles/tailwind.scss";
-import { Provider, useDispatch } from "react-redux";
+import { Provider, useDispatch, useSelector } from "react-redux";
 import store from "./store/store";
-import siteData from "./data/siteData.json";
-import { setSiteData } from "./store/siteDataSlice";
+import { fetchSiteData } from "./store/siteDataSlice";
 
 const DataLoader = ({ children }) => {
   const dispatch = useDispatch();
+  const { loading, error } = useSelector((state) => state.siteData);
 
   useEffect(() => {
-    dispatch(setSiteData(siteData));
+    dispatch(fetchSiteData());
   }, [dispatch]);
+
+  if (loading) return <div>Loading data...</div>;
+  if (error) return <div>Error: {error}</div>;
 
   return children;
 };

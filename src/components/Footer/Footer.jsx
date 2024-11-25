@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Footer.module.scss";
 import footerImg from "../../assets/images/footer.png";
 import { useSelector } from "react-redux";
+import Button from "../Button/Button";
 
 const Footer = () => {
   const footerData = useSelector((state) => state.siteData.data.home?.footer);
@@ -57,9 +58,10 @@ const Footer = () => {
               ></textarea>
             </div>
 
-            <input
-              className="uppercase cursor-pointer md:m-0 m-auto px-20 py-5 w-fit hover:bg-secondary-dark duration-200 md:2xl:text-4xl text-xl tracking-widest bg-buttons rounded-[10px] text-white"
+            <Button
               type="submit"
+              buttonText="Submit"
+              className="px-20 py-5 w-fit md:2xl:text-4xl text-xl bg-buttons rounded-[10px] text-white hover:bg-secondary-dark"
             />
           </form>
         </div>
